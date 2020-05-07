@@ -1,0 +1,83 @@
+/*标题*/
+.mui-bar-nav{
+	background:#3492e9
+}
+/*搜索框*/
+.search-bar div input {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	height:1.875rem;
+    width: 80%;
+	margin: 0.5rem auto;
+	display: block;
+	border: 2px;
+	left: 0.625rem;
+	padding-left: 1.875rem;
+	font-size: 1rem;
+	}
+.search-bar div span{
+	position: relative;
+	top:-2.875rem;
+	color: #000000;
+	left: 0rem;
+	font-size: 0.75rem;
+}
+/*图片轮播*/
+.mui-slider {
+	position: relative;
+	top: 1.875rem;
+	margin: 0 auto;
+	width:90%
+	
+}
+
+/*推荐*/
+.recommad {
+	position: relative;
+	top: 3.125rem
+}
+.rec-rec {
+	position: relative;
+	left: 1.25rem;
+	font-size: 1.5625rem;
+}
+.rec-more {
+	position: relative;
+	right :1.25rem;
+	top: -0.625rem;
+	font-size: 0.75rem;
+}
+
+/*人气产品*/
+.popular{
+	position: relative ;
+	top: 2.0rem;
+}
+/*滑动*/
+.swiper-slide {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.swiper-container {
+	margin: auto;
+    width:320px;
+    height:180px;
+}  
+.swiper-container img{
+	width: 100px;
+	height: 100px;
+	position:relative; 
+	left:0px; 
+	top:0px;
+}
+.swiper-container p{
+	position: relative;
+	text-align: left;
+	top: 0rem;
+	left: 0rem;
+	font-size: 0.625rem;
+	line-height:5px;
+	
