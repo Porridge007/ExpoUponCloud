@@ -1,6 +1,7 @@
-# ExpoUponTheCloud
+# ExpoUponCloud
 使用Beego制作的2020“浙匠质造”云博会web app
 
+![](https://repository-images.githubusercontent.com/261953492/91e86b00-943f-11ea-988f-ab8ce0933e15)
 本届“浙匠质造”云博会，将作为 2020 年中国（杭州）西博会&
 智博会——云展会项目重点打造，并计划于 2020 年 6 月 1 日至 6 月 30 日上线举办。
 本届云博会以“浙匠质造”为主题，聚集百家匠企和千万匠品，
