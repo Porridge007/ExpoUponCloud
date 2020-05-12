@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "ExpoUponTheCloud/routers"
+	_ "ExpoUponCloud/routers"
 	"github.com/astaxie/beego"
 )
 

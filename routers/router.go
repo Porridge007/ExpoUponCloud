@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"ExpoUponTheCloud/controllers"
+	"ExpoUponCloud/controllers"
 	"github.com/astaxie/beego"
 )
 
