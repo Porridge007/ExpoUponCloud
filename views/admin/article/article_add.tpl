@@ -21,11 +21,6 @@
         <div class="layui-input-block">
             <div id="edit"></div>
         </div>
-    </div>
-    <div id="editor">
-        <p>欢迎使用 <b>wangEditor</b> 富文本编辑器</p>
-    </div>
-    <div>
         <button type="button"  class="btn btn-primary">Primary</button>
     </div>
 </form>
