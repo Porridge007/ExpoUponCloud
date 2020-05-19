@@ -97,7 +97,7 @@
             <!-- <label class="layui-form-label">标题</label> -->
             <div class="layui-input-block">
                 <input type="text" name="title" required="required" value="" placeholder="请输入标题" autocomplete="off"
-                    class="layui-input">
+                    class="layui-input" id="title_input">
             </div>
         </div>
 
@@ -142,8 +142,15 @@
 
         document.getElementById('release').addEventListener('click', function () {
             // 读取 text
-            console.log(editor.txt.html())
-        }, false)
+            let content = editor.txt.html();
+            let title =  document.getElementById('title_input').value;
+            let article = {
+                title: title,
+                content: content
+            };
+            let aaa = JSON.stringify(article)
+            release(aaa)
+        }, false);
 
         function upload() {
             var fileInput = document.getElementById("upimg");
@@ -164,6 +171,18 @@
                 url = window.webkitURL.createObjectURL(file);
             }
             return url;
+        }
+
+        function release(params) {
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", '/admin/article/release', true);
+
+            xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
+
+            // xhr.onload = function () {
+            //     // 请求结束后,在此处写处理代码
+            // };
+            xhr.send(params);
         }
     </script>
 </body>
