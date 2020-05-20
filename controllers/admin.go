@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-type ArticleController struct {
+type ArticleAdminController struct {
 	beego.Controller
 }
 
@@ -23,11 +23,11 @@ type ArticleStruct struct {
 
 var coverAddr string
 
-func (c *ArticleController) Get(){
+func (c *ArticleAdminController) Get(){
 	c.TplName =  "admin/article/article_add.tpl"
 }
 
-func (c *ArticleController) Post(){
+func (c *ArticleAdminController) Post(){
 	var article ArticleStruct
 	if err := json.Unmarshal(c.Ctx.Input.RequestBody, &article); err == nil {
 		fmt.Println(article.Title, article.Content)
