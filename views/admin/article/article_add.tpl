@@ -14,19 +14,23 @@
         padding: 0;
         margin: 0;
     }
-    html{
+
+    html {
         height: 100%;
     }
+
     body {
         padding: 20px;
         height: 100%;
     }
-    .formcontent{
+
+    .formcontent {
         /* height: 100%; */
         position: relative;
         max-height: calc(-90px + 100vh);
         overflow: auto;
     }
+
     .layui-form-item {
         margin-bottom: 20px;
     }
@@ -48,6 +52,7 @@
     .buttonContent {
         text-align: center;
     }
+
     .showimg {
         width: 200px;
         height: 200px;
@@ -86,8 +91,9 @@
         line-height: 200px;
         text-align: center;
     }
-    .w-e-text-container{
-        height: 450px!important;
+
+    .w-e-text-container {
+        height: 450px !important;
     }
 </style>
 
@@ -106,7 +112,7 @@
             <div>
                 <div id="edit"></div>
             </div>
-            <div>
+            <form enctype="multipart/form-data">
                 <span style="display:block;padding-top: 20px;padding-bottom: 20px;">请选择需要的封面图片：</span>
                 <div class="showimg">
                     <input type="file" id="upimg" onchange="upload(this)">
@@ -115,11 +121,10 @@
                         <i v-else class="el-icon-plus"></i>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
         <div style="position: fixed;width: 100%;bottom: 0;">
             <p class="buttonContent">
-                <button type="button" class="btn btn-primary" id="save" style="margin-right:20px">保存</button>
                 <button type="button" class="btn btn-primary" id="release">发布</button>
             </p>
 
@@ -132,24 +137,27 @@
     <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.bootcdn.net/ajax/libs/wangEditor/10.0.13/wangEditor.min.js"></script>
     <script type="text/javascript">
+        var showUrl;
+        var file;
         var E = window.wangEditor;
         var editor = new E('#edit');
         // 图片不采用上传模式，直接保存到数据库
-        editor.customConfig.uploadImgShowBase64 = true;
         editor.customConfig.pasteFilterStyle = false;
         editor.customConfig.zIndex = 1;
         editor.create();
 
         document.getElementById('release').addEventListener('click', function () {
+            uploadImg()
             // 读取 text
             let content = editor.txt.html();
-            let title =  document.getElementById('title_input').value;
+            let title = document.getElementById('title_input').value;
+
             let article = {
                 title: title,
                 content: content
             };
-            let aaa = JSON.stringify(article)
-            release(aaa)
+            let article_post = JSON.stringify(article)
+            release(article_post)
         }, false);
 
         function upload() {
@@ -175,7 +183,7 @@
 
         function release(params) {
             var xhr = new XMLHttpRequest();
-            xhr.open("POST", '/admin/article/release', true);
+            xhr.open("POST", '/admin/article', true);
 
             xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
 
@@ -183,6 +191,25 @@
             //     // 请求结束后,在此处写处理代码
             // };
             xhr.send(params);
+        }
+
+        // 上传图片
+        function uploadImg() {
+            var xhr = new XMLHttpRequest();
+            var fd = new FormData()
+            var fileInput = document.getElementById("upimg");
+            var file = fileInput.files[0];
+            console.log(file)
+            fd.append('file', file)
+            console.log(fd)
+            xhr.open("POST", '/admin/cover', true);
+
+            // xhr.setRequestHeader("Content-type", "multipart/form-data")
+
+            // xhr.onload = function () {
+            //     // 请求结束后,在此处写处理代码
+            // };
+            xhr.send(fd);
         }
     </script>
 </body>
