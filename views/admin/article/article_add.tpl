@@ -147,7 +147,6 @@
         editor.create();
 
         document.getElementById('release').addEventListener('click', function () {
-            uploadImg()
             // 读取 text
             let content = editor.txt.html();
             let title = document.getElementById('title_input').value;
@@ -156,8 +155,12 @@
                 title: title,
                 content: content
             };
-            let article_post = JSON.stringify(article)
+            let article_post = JSON.stringify(article);
+
             release(article_post)
+
+            uploadImg()
+
         }, false);
 
         function upload() {
@@ -209,7 +212,7 @@
             // xhr.onload = function () {
             //     // 请求结束后,在此处写处理代码
             // };
-            xhr.send(fd);
+            xhr.send(fd)
         }
     </script>
 </body>

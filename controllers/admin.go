@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"ExpoUponCloud/models"
 	"encoding/json"
 	"fmt"
 	"github.com/astaxie/beego"
@@ -21,20 +22,16 @@ type ArticleStruct struct {
 	Content string
 }
 
-var coverAddr string
+var toRelease ArticleStruct
 
 func (c *ArticleAdminController) Get(){
 	c.TplName =  "admin/article/article_add.tpl"
 }
 
 func (c *ArticleAdminController) Post(){
-	var article ArticleStruct
-	if err := json.Unmarshal(c.Ctx.Input.RequestBody, &article); err == nil {
-		fmt.Println(article.Title, article.Content)
-	} else {
+	if err := json.Unmarshal(c.Ctx.Input.RequestBody, &toRelease); err != nil {
 		fmt.Println(err)
 	}
-	fmt.Println(coverAddr)
 	c.Ctx.WriteString("1000")
 	c.TplName =  "admin/article/article_list.tpl"
 }
@@ -50,6 +47,18 @@ func (c *ArticleCoverController) Post() {
 	if  err != nil{
 		c.Ctx.WriteString("Saving Cover Failed")
 	}
-	coverAddr =finalName
-	c.Ctx.WriteString(finalName)
+	article := models.Article{
+		Id:         0,
+		Title:      toRelease.Title,
+		Content:    toRelease.Content,
+		Cover:      finalName,
+		UpdateTime: time.Now(),
+	}
+	if _, err := models.AddArticle(&article); err == nil {
+		c.Ctx.Output.SetStatus(201)
+		c.Data["json"] = article
+	} else {
+		c.Data["json"] = err.Error()
+	}
+	c.ServeJSON()
 }

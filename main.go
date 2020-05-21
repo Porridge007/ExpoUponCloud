@@ -1,6 +1,7 @@
 package main
 
 import (
+	"ExpoUponCloud/models"
 	_ "ExpoUponCloud/routers"
 	"github.com/astaxie/beego"
 	"fmt"
@@ -14,6 +15,10 @@ func init() {
 	orm.RegisterDataBase("default", "mysql", fmt.Sprintf("%s:%s@(%s)/expodb?"+
 		"charset=utf8&loc=Local", beego.AppConfig.String("mysqluser"), beego.AppConfig.String("mysqlpass"),
 		beego.AppConfig.String("mysqlurl")))
+
+	orm.RegisterModel(new(models.Article))
+
+	orm.RunSyncdb("default", true, true)
 }
 
 func main() {
