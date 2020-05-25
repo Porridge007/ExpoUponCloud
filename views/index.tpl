@@ -1,254 +1,297 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta content="telephone=no" name="format-detection">
-    <!--<meta name="Online Exhibition" content="Hangzhou WestLake International Exhibition Corp." />-->
-    <title>西湖国际会展</title>
-    <script src="../static/js/mui.min.js"></script>
-    <link href="../static/css/mui.min.css" rel="stylesheet"/>
-    <link href="../static/css/style.css" rel="stylesheet"/>
-    <link href="../static/css/swiper.min.css" rel="stylesheet">
-    <script type="text/javascript" charset="utf-8">
-        mui.init();
-    </script>
-</head>
-    <body>
-        <div class="mui-content">
-        <!-- 搜索框 -->
-        <header class="mui-bar mui-bar-nav">
-            <div class="search-bar">
-                <div class="mui-input-row mui-search">
-                    <input type="text" placeholder="搜索" style="border-radius: 12px">
-                    <span class="mui-icon mui-icon mui-icon-plusempty" style="float:right;"></span>
-                    <span class="mui-icon mui-icon-search" style="padding-left: 1.5625rem;"></span>
-                    <span class="mui-icon mui-icon mui-icon-bars" style="float:left; top: -2.7rem;"></span>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../static/css/mui.min.css">
+		<link rel="stylesheet" href="../static/css/app.css">
+		<style>
+			.plus-icon{
+				margin-top: 15px;
+				margin-left: 8px;
+			}
+			.search-icon{
+				margin-top: -50px;
+			}
+		</style>
+	</head>
 
-                </div>
-            </div>
-        </header>
+	<body>
+		<div class="mui-content">
+			<div class="mui-m-top">
+				<div class="mui-m-top1"><svg class="bi bi-layout-text-sidebar" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+						<path fill-rule="evenodd" d="M11 15V1h1v14h-1zM3 3.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+					</svg></div>
+				<div class="mui-m-top2" style="position: relative"><svg style="position: absolute" class="bi bi-search search-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+						<path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+					</svg>
+					<input type="text" placeholder="搜索">
+				</div>
+				<svg class="bi bi-plus plus-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+					<path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+				</svg>
+			</div>
+			</div>
+			<div id="slider" class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop">
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img class="my_pic" src="../static/images/gb.png">
+						</a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../static/images/gb.png">
+						</a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../static/images/gb.png">
+						</a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../static/images/gb.png">
+						</a>
+					</div>
+					<div class="mui-slider-item">
+						<a href="#">
+							<img src="../static/images/gb.png">
+						</a>
+					</div>
+					<div class="mui-slider-item mui-slider-item-duplicate">
+						<a href="#">
+							<img src="../static/images/gb.png">
+						</a>
+					</div>
+				</div>
+				<div class="mui-slider-indicator" style="display:none;">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+			
+			<div class="mui-slider-m-title">
+				推荐
+				<span><a href="">更多</a></span>
+			</div>
+			<div id="Gallery" class="mui-slider">
+				<div class="mui-slider-group">
+					<div class="mui-slider-item">
+						<ul class="mui-table-view mui-grid-view mui-grid-9">
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">2020年10月10日</p>
+									<p class="gtitle2">浙江市民修仙界</p>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">2020年10月10日</p>
+									<p class="gtitle2">浙江市民修仙界</p>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">2020年10月10日</p>
+									<p class="gtitle2">浙江市民修仙界</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="mui-slider-item">
+						<ul class="mui-table-view mui-grid-view mui-grid-9">
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">2020年10月10日</p>
+									<p class="gtitle2">浙江市民修仙界</p>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">2020年10月10日</p>
+									<p class="gtitle2">浙江市民修仙界</p>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">2020年10月10日</p>
+									<p class="gtitle2">浙江市民修仙界</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="mui-slider-item">
+						<ul class="mui-table-view mui-grid-view mui-grid-9">
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">2020年10月10日</p>
+									<p class="gtitle2">浙江市民修仙界</p>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">2020年10月10日</p>
+									<p class="gtitle2">浙江市民修仙界</p>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">2020年10月10日</p>
+									<p class="gtitle2">浙江市民修仙界</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="mui-slider-indicator" style="display:none;">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
 
-        <!-- 底栏 -->
-        <nav class="mui-bar mui-bar-tab">
-            <a id="defaultTab" class="mui-tab-item mui-active" href="html/home.html">
-                <span class="mui-icon mui-icon-home"></span>
-                <span class="mui-tab-label">首页</span>
-            </a>
-            <a class="mui-tab-item" href="html/exhibition.html">
-                <span class="mui-icon mui-icon-map"></span>
-                <span class="mui-tab-label">展览</span>
-            </a>
-            <a class="mui-tab-item" href="html/mall.html">
-                <span class="mui-icon mui-icon-gear"></span>
-                <span class="mui-tab-label">商城</span>
-            </a>
-        </nav>
-        <div class="BG">
-            <img/>
-        </div>
-        <!-- 图片轮播 -->
-        <div id="slider" class="mui-slider">
-            <div class="mui-slider-group mui-slider-loop">
-                <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
-                <div class="mui-slider-item mui-slider-item-duplicate">
-                    <a href="#">
-                        <img src="http:\/\/placehold.it\/400x300">
-                    </a>
-                </div>
-                <!-- 第一张 -->
-                <div class="mui-slider-item">
-                    <a href="#">
-                        <img src="http:\/\/placehold.it\/400x300">
-                    </a>
-                </div>
-                <!-- 第二张 -->
-                <div class="mui-slider-item">
-                    <a href="#">
-                        <img src="http:\">
-                    </a>
-                </div>
-                <!-- 第三张 -->
-                <div class="mui-slider-item">
-                    <a href="#">
-                        <img src="http:\">
-                    </a>
-                </div>
-                <!-- 第四张 -->
-                <div class="mui-slider-item">
-                    <a href="#">
-                        <img src="http:\/\/placehold.it\/400x300">
-                    </a>
-                </div>
-                <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
-                <div class="mui-slider-item mui-slider-item-duplicate">
-                    <a href="#">
-                        <img src="http:\/\/placehold.it\/400x300">
-                    </a>
-                </div>
-            </div>
-            <div class="mui-slider-indicator">
-                <div class="mui-indicator mui-active"></div>
-                <div class="mui-indicator"></div>
-                <div class="mui-indicator"></div>
-                <div class="mui-indicator"></div>
-            </div>
-        </div>
-        <!--推荐-->
-        <div class="recommad">
-            <div class="tital">
-                <div class="rec-rec" style="float:left;font-size: 1.25rem;">
-                    推荐
-                </div>
-                <div class="rec-more" style="float:right;">更多</div>
-            </div>
-            <!--swiper-->
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a href="">
-                            <img src="1">
-                            <p style="color: #246ed1">2020年6月21日</p>
-                            <p>浙匠制造100</p>
-                        </a></div>
-                    <div class="swiper-slide">
-                        <a href="">
-                            <img src="1">
-                            <p>2020年6月21日</p>
-                        </a></div>
-                    <div class="swiper-slide">
-                        <a href="">
-                            <img src="1">
-                            <p>2020年6月21日</p>
-                        </a></div>
-                </div>
-            </div>
+			<div class="mui-slider-m-title">
+				人气产品
+				<span><a href="">更多</a></span>
+			</div>
+			<div id="Gallery1" class="mui-slider">
+				<div class="mui-slider-group">
+					<div class="mui-slider-item">
+						<ul class="mui-table-view mui-grid-view mui-grid-9">
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="mui-slider-item">
+						<ul class="mui-table-view mui-grid-view mui-grid-9">
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="mui-slider-item">
+						<ul class="mui-table-view mui-grid-view mui-grid-9">
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="mui-slider-indicator" style="display:none;">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+			</div>
+			<div class="mui-button-row">
+				<nav class="mui-bar mui-bar-tab">
+					<a id="defaultTab" class="mui-tab-item mui-active" href="html/home.html">
+						<svg class="bi bi-house" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+							<path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+						</svg>
 
-            <!--人气产品-->
-            <div class="popular">
-                <div class="tital">
-                    <div class="rec-rec" style="float:left;font-size: 1.25rem;">
-                        人气产品
-                    </div>
-                    <div class="rec-more" style="float:right;">更多</div>
-                </div>
-                <!--swiper-->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a href="">
-                                <img src="1">
-                                <p style="color: #246ed1">2020年6月21日</p>
-                                <p>浙匠制造100</p>
-                            </a></div>
-                        <div class="swiper-slide">
-                            <a href="">
-                                <img src="1">
-                                <p>2020年6月21日</p>
-                            </a></div>
-                        <div class="swiper-slide">
-                            <a href="">
-                                <img src="1">
-                                <p>2020年6月21日</p>
-                            </a></div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <!--页脚-->
-                <footer>
-                    <style>
-                        .bdsharebuttonbox a {
-                            display: inline-block;
-                            float: none;
-                        }
+						<div class="mui-tab-label">首页</div>
+					</a>
+					<a class="mui-tab-item" href="html/exhibition.html">
+						<svg class="bi bi-map" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" d="M15.817.613A.5.5 0 0 1 16 1v13a.5.5 0 0 1-.402.49l-5 1a.502.502 0 0 1-.196 0L5.5 14.51l-4.902.98A.5.5 0 0 1 0 15V2a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0l4.902.98 4.902-.98a.5.5 0 0 1 .415.103zM10 2.41l-4-.8v11.98l4 .8V2.41zm1 11.98l4-.8V1.61l-4 .8v11.98zm-6-.8V1.61l-4 .8v11.98l4-.8z"/>
+						</svg>
+						<div class="mui-tab-label">展览</div>
+					</a>
+					<a class="mui-tab-item" href="html/mall.html">
+						<svg class="bi bi-gear" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" d="M8.837 1.626c-.246-.835-1.428-.835-1.674 0l-.094.319A1.873 1.873 0 0 1 4.377 3.06l-.292-.16c-.764-.415-1.6.42-1.184 1.185l.159.292a1.873 1.873 0 0 1-1.115 2.692l-.319.094c-.835.246-.835 1.428 0 1.674l.319.094a1.873 1.873 0 0 1 1.115 2.693l-.16.291c-.415.764.42 1.6 1.185 1.184l.292-.159a1.873 1.873 0 0 1 2.692 1.116l.094.318c.246.835 1.428.835 1.674 0l.094-.319a1.873 1.873 0 0 1 2.693-1.115l.291.16c.764.415 1.6-.42 1.184-1.185l-.159-.291a1.873 1.873 0 0 1 1.116-2.693l.318-.094c.835-.246.835-1.428 0-1.674l-.319-.094a1.873 1.873 0 0 1-1.115-2.692l.16-.292c.415-.764-.42-1.6-1.185-1.184l-.291.159A1.873 1.873 0 0 1 8.93 1.945l-.094-.319zm-2.633-.283c.527-1.79 3.065-1.79 3.592 0l.094.319a.873.873 0 0 0 1.255.52l.292-.16c1.64-.892 3.434.901 2.54 2.541l-.159.292a.873.873 0 0 0 .52 1.255l.319.094c1.79.527 1.79 3.065 0 3.592l-.319.094a.873.873 0 0 0-.52 1.255l.16.292c.893 1.64-.902 3.434-2.541 2.54l-.292-.159a.873.873 0 0 0-1.255.52l-.094.319c-.527 1.79-3.065 1.79-3.592 0l-.094-.319a.873.873 0 0 0-1.255-.52l-.292.16c-1.64.893-3.433-.902-2.54-2.541l.159-.292a.873.873 0 0 0-.52-1.255l-.319-.094c-1.79-.527-1.79-3.065 0-3.592l.319-.094a.873.873 0 0 0 .52-1.255l-.16-.292c-.892-1.64.902-3.433 2.541-2.54l.292.159a.873.873 0 0 0 1.255-.52l.094-.319z"/>
+							<path fill-rule="evenodd" d="M8 5.754a2.246 2.246 0 1 0 0 4.492 2.246 2.246 0 0 0 0-4.492zM4.754 8a3.246 3.246 0 1 1 6.492 0 3.246 3.246 0 0 1-6.492 0z"/>
+						</svg>
+						<div class="mui-tab-label">商城</div>
+					</a>
+				</nav>
+			</div>
+			<script src="../static/js/mui.min.js"></script>
+			<script>
+				mui.init({
+					swipeBack:true
+				});
+				var slider = mui("#Gallery");
+				slider.slider({
+					//interval: 5000
+				});
 
-                        .iabc_address {
-                            padding-right: 0;
-                            padding-left: 0;
-                        }
-                    </style>
-                    <div class="container">
-                        <div class="row">
-                            <div class="m_30 hidden-xs"></div>
-                            <div class="m_30 hidden-xs"></div>
-                            <div class="col-md-offset-3">
-                                <!--
-                            <div class="col-md-3 col-sm-6 iabc_address">
+				var slider1 = mui("#Gallery1");
+				slider1.slider({
+					//interval: 5000
+				});
 
-                                <ul class="nav navbar-nav">
-
-                                    <p>iABC组委会</p>
-                                    <p>杭州第一世界大酒店（杭州市萧山区风情大道2555号）</p>
-
-                                    <p><a href="mailto:iabc@cicaf.com">iabc@cicaf.com</a></p>
-
-                                </ul>
-                            </div>
-                            -->
-                                <div class="col-md-6 col-sm-6" align="center">
-
-                                    <table cellpadding="0" cellspacing="0">
-                                        <tbody>
-                                        <tr>
-                                            <td>商务合作<br>
-                                                +86 0571-26307273<br>
-                                                +86 0571-26307276<br>
-                                                +86 0571-56072261<br>
-                                                +86 0571-87809301<br>
-
-                                                <a href="mailto:iabc@cicaf.com">iabc@cicaf.com</a>
-                                            </td>
-                                        </tr>
-
-                                        </tbody>
-                                    </table>
-
-                                </div>
-                                <div class="col-md-6 col-sm-12" align="right">
-
-                                    <div class="col-md-5 col-sm-6 hidden-xs">
-                                        <p align="center"><img src="http://iabc.cicaf.com/images/qr.jpg" width="100%"
-                                                               style="max-width:100px;"></p>
-                                        <p align="center">iABC官微</p>
-                                    </div>
-                                    <a href="http://www.cicaf.com/" target="_blank">
-                                        <div class="col-md-7 col-sm-6">
-                                            <p align="center"><img src="http://iabc.cicaf.com/images/2020/logo2.png"
-                                                                   width="100%" style="max-width:100px;"></p>
-                                            <p align="center">LINK TO CICAF Website</p>
-                                        </div>
-                                    </a>
-
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="m_30 hidden-xs"></div>
-
-                    </div>
-                    <div class="copyright">© All Rights Reserved By CICAF</div>
-                </footer>
-            </div>
-            </div>
-        </div>
-        <!---1脚本代码-->
-        <script src="../static/js/swiper.min.js"></script>
-        <script src="../static/js/mui.min.js"></script>
-        <script type="text/javascript" charset="utf-8">
-            <!--2初始化-->
-            ca.init();
-        </script>
-        <script>
-            var mySwiper = new Swiper('.swiper-container', {
-                loop: true, // 循环模式选项
-                slidesPerView: 3,
-            });
-            var gallery = mui('.mui-slider');
-            gallery.slider({
-                interval: 3000 //自动轮播周期，若为0则不自动播放，默认为0；
-            });
-        </script>
-    </body>
+				var slider = mui("#slider");
+				slider.slider({
+					interval: 2000
+				});
+			</script>
+	</body>
 </html>
