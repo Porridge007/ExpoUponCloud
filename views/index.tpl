@@ -162,21 +162,21 @@
 				<div class="mui-slider-item">
 					<ul class="mui-table-view mui-grid-view mui-grid-9">
 						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-							<a href="#">
+							<a href="#" onclick="javascript:window.location.href='/404'">
 								<img src="../static/images/微信图片_20200527012705.jpg">
 								<p class="gtitle1">2020年10月16日</p>
 								<p class="gtitle2">2020浙匠制造</p>
 							</a>
 						</li>
 						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" style="margin-left:5%">
-							<a href="#">
+							<a href="#" onclick="javascript:window.location.href='/404'">
 								<img src="../static/images/2.jpg">
 								<p class="gtitle1">2020年10月16日</p>
 								<p class="gtitle2">2020国际智能产品博览会</p>
 							</a>
 						</li>
 						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" style="margin-left:5%">
-							<a href="#">
+							<a href="#" onclick="javascript:window.location.href='/404'">
 								<img src="../static/images/3.png">
 								<p class="gtitle1">2020年10月16日</p>
 								<p class="gtitle2">2020杭州市民休闲节</p>
@@ -333,18 +333,18 @@
 
 					<div class="mui-tab-label" style="font-size: 12px;">首页</div>
 				</a>
-				<a class="mui-tab-item" href="html/exhibition.html">
+				<a class="mui-tab-item" href="" onclick="javascript:window.location.href='/artisanhouse'">
 					<svg class="bi bi-map" width="36px" height="36px" fill="currentColor"
 						xmlns="http://www.w3.org/2000/svg">
 						<path d="M17.71,0A17.71,17.71,0,1,0,35.42,17.71,17.72,17.72,0,0,0,17.71,0ZM33.17,16.61h-7C26,10.83,24.55,5.88,22.42,2.92A15.56,15.56,0,0,1,33.17,16.61ZM17.71,33.23c-2.84,0-6-5.88-6.23-14.43H23.94C23.69,27.35,20.55,33.23,17.71,33.23ZM11.48,16.61c.25-8.55,3.39-14.42,6.23-14.42s6,5.87,6.23,14.42ZM13,2.92c-2.13,3-3.55,7.91-3.71,13.69h-7A15.56,15.56,0,0,1,13,2.92ZM2.25,18.8h7c.16,5.78,1.58,10.74,3.71,13.69A15.53,15.53,0,0,1,2.25,18.8ZM22.42,32.49c2.13-3,3.55-7.91,3.71-13.69h7A15.53,15.53,0,0,1,22.42,32.49Z"/>
 					</svg>
 					<div class="mui-tab-label" style="font-size: 12px;">展览</div>
 				</a>
-				<a class="mui-tab-item" href="html/mall.html">
+                {{/*<a href="http://6tt.co/mNmB">点我进行跳转</a>*/}}
+				<a class="mui-tab-item" href="http://6tt.co/mNmB"	onclick="location='http://6tt.co/mNmB'">
 					<svg class="bi bi-gear" width="28px" height="38px" fill="currentColor"
-						xmlns="http://www.w3.org/2000/svg">
+						xmlns="http://www.w3.org/2000/svg" >
 						<path d="M26.19,11.93H22V8.4a8.4,8.4,0,1,0-16.8,0v3.53H1.1A1.1,1.1,0,0,0,0,13V31.56a6.58,6.58,0,0,0,6.57,6.57H20.71a6.57,6.57,0,0,0,6.57-6.57V13A1.09,1.09,0,0,0,26.19,11.93ZM7.43,8.4a6.21,6.21,0,1,1,12.42,0v3.53H7.43ZM25.09,31.56a4.39,4.39,0,0,1-4.38,4.38H6.57a4.39,4.39,0,0,1-4.38-4.38V14.12H5.24v2.54a1.1,1.1,0,0,0,2.19,0V14.12H19.85v2.54a1.1,1.1,0,0,0,2.19,0V14.12h3.05Z"/>
-
 					</svg>
 					<div class="mui-tab-label" style="font-size: 12px;">商城</div>
 				</a>

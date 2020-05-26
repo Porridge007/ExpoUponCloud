@@ -126,8 +126,8 @@
 				<div class="mui-m-list2">www.aaa.com</div>
 			</div>
 			<div class="mui-button-row" style="background: rgb(36,110,209);padding: 2px;bottom: 0;">
-				<button type="button" class="mui-btn mui-btn-primary" style="width: 50%;border-radius: 0;border: 0 none;float: left;background: #fff;color: black;margin: 0;">云销售</button>
-				<button type="button" class="mui-btn mui-btn-primary" style="width: 50%;border-radius: 0;border: 0 none;float: left;margin: 0;">云服务</button>
+				<button type="button" class="mui-btn mui-btn-primary" style="width: 50%;border-radius: 0;border: 0 none;float: left;background: #fff;color: black;margin: 0;" onclick="javascript:window.location.href='/404'">云销售</button>
+				<button type="button" class="mui-btn mui-btn-primary" style="width: 50%;border-radius: 0;border: 0 none;float: left;margin: 0;" onclick="javascript:window.location.href='/404'">云服务</button>
 			</div>
 			<script src="../static/js/mui.min.js"></script>
 			<script>
