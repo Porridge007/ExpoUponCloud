@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>浙江杭州网上云博会-首页</title>
+		<title>西博云展</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -17,6 +17,9 @@
 			.search-icon{
 				margin-top: -50px;
 			}
+			.article{
+				margin-bottom: 10px;
+			}
 		</style>
 	</head>
 
@@ -26,10 +29,12 @@
 				<div class="mui-m-top1"><svg class="bi bi-layout-text-sidebar" width="1em" height="1em" viewBox="0 0 16 16"  fill="white" xmlns="http://www.w3.org/2000/svg">
 						<path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
 						<path fill-rule="evenodd" d="M11 15V1h1v14h-1zM3 3.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-					</svg></div>
-				<div class="mui-m-top2" style="position: relative"><svg style="position: absolute" class="bi bi-search search-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-						<path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
-						<path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+					</svg>
+				</div>
+				<div class="mui-m-top2" style="position: relative">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16.14"><defs><style>.cls-1{fill:#2b68b2;}</style></defs><title>资源 89</title>
+						<g id="图层_2" data-name="图层 2"><g id="图层_1-2" data-name="图层 1">
+						<path class="cls-1" d="M11.13,9.72a6.14,6.14,0,1,0-5,2.57,6.05,6.05,0,0,0,3.41-1l4.57,4.57a1.13,1.13,0,0,0,.78.32,1.1,1.1,0,0,0,.77-1.87ZM1.46,6.15a4.69,4.69,0,1,1,4.69,4.68A4.69,4.69,0,0,1,1.46,6.15Z"/></g></g>
 					</svg>
 					<input type="text" placeholder="搜索">
 				</div>
@@ -39,7 +44,7 @@
 				</svg>
 			</div>
 			</div>
-		<div id="slider" class="mui-slider">
+		<div id="slider" class="mui-slider" style="width:90%; margin: 0 auto; padding-top: 48px">
 			<div class="mui-slider-group mui-slider-loop">
 				<div class="mui-slider-item mui-slider-item-duplicate">
 					<a href="#">
@@ -69,9 +74,8 @@
 			</div>
 		</div>
 			
-			<div class="mui-slider-m-title">
+			<div class="mui-slider-m-title article">
 				<span  style="position: absolute;font-size: medium">推荐</span>
-				<span><a href="">更多</a></span>
 			</div>
 			<div id="Gallery" class="mui-slider">
 				<div class="mui-slider-group">
@@ -158,8 +162,8 @@
 				</div>
 			</div>
 
-			<div class="mui-slider-m-title">
-				人气产品
+			<div class="mui-slider-m-title" style="padding-top: 0px">
+				<span  style="position: absolute;font-size: medium">人气产品</span>
 				<span><a href="">更多</a></span>
 			</div>
 			<div id="Gallery1" class="mui-slider">
@@ -169,19 +173,19 @@
 							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
 								<a href="http://33s.co/qhem">
 									<img src="../static/images/FilL5ea1m_tf48WpsFTjH2lQn0cM.jpg!large.jpg">
-									<p class="gtitle1">张爷爷纯手工空心挂面 舌尖上的中国报道 </p>
+									<p class="gtitle2">张爷爷纯手工空心挂面 舌尖上的中国报道 </p>
 								</a>
 							</li>
 							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
 								<a href="http://33s.co/qhe5">
 									<img src="../static/images/Fpd-uYv5sHz9mCGulUkALPTQE6Ei.jpg!large.jpg">
-									<p class="gtitle1">山东羊角蜜甜瓜 水果甜瓜 </p>
+									<p class="gtitle2">山东羊角蜜甜瓜 水果甜瓜 </p>
 								</a>
 							</li>
 							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
 								<a href="#">
 									<img src="../static/images/FhycNUxh7mN5MG52A1mYcuSDBfio.jpg!large.jpg">
-									<p class="gtitle1"> 玫瑰果胶胶原蛋白美白淡斑Q弹水润澎澎玫</p>
+									<p class="gtitle2"> 玫瑰果胶胶原蛋白美白淡斑Q弹水润澎澎玫</p>
 								</a>
 							</li>
 						</ul>
