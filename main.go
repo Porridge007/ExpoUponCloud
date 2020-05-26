@@ -18,7 +18,7 @@ func init() {
 
 	orm.RegisterModel(new(models.Article))
 
-	orm.RunSyncdb("default", true, true)
+	orm.RunSyncdb("default", false, true)
 }
 
 func main() {
