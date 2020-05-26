@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>西博云展</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../static/css/mui.min.css">
+		<link rel="stylesheet" href="../static/css/app.css">
+		<style>
+		</style>
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<div class="mui-m-top">
+				<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="font-size: 22px;"></a>
+				<h2 class="mui-title" style="font-size: 16px;">食匠馆</h2>
+			</div>
+			<!-- <div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+			    <div class="mui-scroll">
+			        <a class="mui-control-item mui-active">
+			            5G
+			        </a>
+			        <a class="mui-control-item">
+			            互联网
+			        </a>
+			        <a class="mui-control-item">
+			            人工智能
+			        </a>
+			        <a class="mui-control-item">
+			            新能源
+			        </a>
+			        <a class="mui-control-item">
+			            智能制造
+			        </a>
+			        <a class="mui-control-item">
+			            科技
+			        </a>
+			    </div>
+			</div> -->
+			
+			<ul class="mui-table-view" style="margin-top: 50px;">
+				<li class="mui-table-view-cell mui-media">
+					<a href="#">
+						{{/*<img class="mui-media-object mui-pull-left" src="./mui-master/mui-master/examples/login/images/qihoo.png">*/}}
+						<div class="mui-media-body">
+                            2020杭州节庆民俗
+							<p class="mui-ellipsis">西溪湿地的绿堤，是花朝节的主要观赏区之一。</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="">
+                        <div class="mui-media-body">
+                            2020杭州节庆民俗
+                            <p class="mui-ellipsis">西溪湿地的绿堤，是花朝节的主要观赏区之一。</p>
+                        </div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="">
+                        <div class="mui-media-body">
+                            2020杭州节庆民俗
+                            <p class="mui-ellipsis">西溪湿地的绿堤，是花朝节的主要观赏区之一。</p>
+                        </div>
+					</a>
+				</li>
+			</ul>
+			<script src="../static/js/mui.min.js"></script>
+			<script>
+				mui.init({
+					swipeBack:true
+				});
+				var slider = mui("#Gallery");
+				slider.slider({
+					//interval: 5000
+				});
+			</script>
+	</body>
+</html>

@@ -2,209 +2,141 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-		<meta content="telephone=no" name="format-detection">
-		<!--<meta name="Online Exhibition" content="Hangzhou WestLake International Exhibition Corp." />-->
-		<title>西湖国际会展</title>
-		<script src="../static/js/mui.min.js"></script>
-		<link href="../static/css/mui.min.css" rel="stylesheet" />
-		<link href="../static/css/style.css" rel="stylesheet" />
-		<link href="../static/css/swiper.min.css" rel="stylesheet">
-		<script type="text/javascript" charset="utf-8">
-			mui.init();
-		</script>
+		<title>西博云展</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../static/css/mui.min.css">
+		<link rel="stylesheet" href="../static/css/app.css">
+		<style>
+		</style>
 	</head>
+
 	<body>
 		<div class="mui-content">
-			<!-- 搜索框 -->
-			<header class="mui-bar mui-bar-nav">
-				<div class="search-bar">
-					<div class="mui-input-row mui-search">
-						<input type="text" placeholder="搜索" style="border-radius: 12px">
-						<span class="mui-icon mui-icon mui-icon-plusempty" style="float:right;"></span>
-						<span class="mui-icon mui-icon-search" style="padding-left: 1.5625rem;"></span>
-						<span class="mui-icon mui-icon mui-icon-bars" style="float:left; top: -2.7rem;"></span>
+			<div class="mui-m-top">
+				<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			</div>
+			<div class="mui-m-head" style="background: url(../static/images/唐人刀剑.jpg)">
+				<div class="mui-m-h1">
+					<div class="mui-m-h1-t1">唐人刀剑</div>
+					<div class="mui-m-h1-t2">浏览数 105</div>
+				</div>
+				<div class="mui-m-h2">
+					<a href=""><img src="../static/images/fenxiang.png"></a>
+				</div>
+				{{/*<div class="mui-m-h3"><a href=""><img src="../static/images/zhibo.png"></a></div>*/}}
+			</div>
 
-					</div>
-				</div>
-			</header>
-			<!-- 底栏 -->
-			<div class="topbutten">
-				<button type="button" class="mui-btn mui-btn-blue" style="width: 80% ;"; >按钮</button>
+			<div class="mui-slider-m-title">
+				精选产品
+				<span><a href="">更多</a></span>
 			</div>
-			
-			<!-- 商户图 -->
-			<div id="backgound" class="product-bg">
-				<div style="position:relative;">
-				　　<img src="http:\/\/placehold.it\/400x300" />
-				<!--商户信息部分-->
-				<div class="product-detial">
-				　　<div class="name" >自嗨锅</div>
-				    <div class= "star">
-						<img src="../static/icon/star.png" width=50% height=50% >
+			<div id="Gallery" class="mui-slider">
+				<div class="mui-slider-group">
+					<div class="mui-slider-item">
+						<ul class="mui-table-view mui-grid-view mui-grid-9">
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/唐人刀剑1.jpg">
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/唐人刀剑2.jpg">
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/唐人刀剑3.jpg">
+								</a>
+							</li>
+						</ul>
 					</div>
-					<div class="quantity" >浏览量</div>
-					<div class="share">
-						<img src="../static/icon/share.png" >
+					<div class="mui-slider-item">
+						<ul class="mui-table-view mui-grid-view mui-grid-9">
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+								</a>
+							</li>
+						</ul>
 					</div>
+					<div class="mui-slider-item">
+						<ul class="mui-table-view mui-grid-view mui-grid-9">
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="#">
+									<img src="../static/images/huoguo.png">
+								</a>
+							</li>
+						</ul>
+					</div>
+
 				</div>
-			</div>
-			<!--推荐-->
-			<div class="recommad">
-				<div class="tital">
-					<div class="rec-rec" style="float:left;font-size: 1.25rem;">
-						精选产品
-					</div>
-					<div class="rec-more" style="float:right;">更多</div>
-				</div>
-				<!--swiper-->
-				<div class="swiper-container">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<a href="">
-								<img src="1">
-								<p style="color: #246ed1">2020年6月21日</p>
-								<p>浙匠制造100</p>
-							</a></div>
-						<div class="swiper-slide">
-							<a href="">
-								<img src="1">
-								<p style="color: #246ed1">xxxx年xx月xx日</p>
-								<p>xxx</p>
-							</a></div>
-						<div class="swiper-slide">
-							<a href="">
-								<img src="1">
-								<p style="color: #246ed1">xxxx年xx月xx日</p>
-								<p>xxxxxxx</p>
-							</a>
-                        </div>
-					</div>
-				</div>
-				<div class="about">
-                 <div class="about-info">
-					<span>公司简介</span> 
-				 </div>
-				 <div class="about-contect">
-					 <span>公司地址</span>
-					 <a href="1">
-					 <p style="">立即联系</p>	
-					 </a>
-				 </div>
-					<div class="about-address">
-						<span>杭州市xxxxx</span>
-					</div>
-				<div class="contect">
-					<span>联系方式</span>
-					<div class="number">
-						<span>139000000</span>
-					</div>
-				</div>
-				<div class="wservice">
-					<span>产品/服务范围</span>
-					<div class="number">
-						<span>xxx</span>
-					</div>
-				</div>
-				<div class="website">
-					<span>公司网站</span>
-					<div class="number">
-						<span>www.xxx.com</span>
-					</div>
-				</div>
-				</div>
-            </div>
-				<div>
-					<!--页脚-->
-					<footer>
-					<style>
-					.bdsharebuttonbox a {
-						display:inline-block;
-						float:none;
-					}
-					.iabc_address {
-						padding-right: 0;
-					    padding-left: 0;
-					}
-					</style>
-						<div class="container">
-							<div class="row">
-								<div class="m_30 hidden-xs"></div>
-								<div class="m_30 hidden-xs"></div>
-								<div class="col-md-offset-3">
-									<!--
-								<div class="col-md-3 col-sm-6 iabc_address">
-									
-									<ul class="nav navbar-nav">
-										
-										<p>iABC组委会</p>
-										<p>杭州第一世界大酒店（杭州市萧山区风情大道2555号）</p>
-									
-										<p><a href="mailto:iabc@cicaf.com">iabc@cicaf.com</a></p>
-										
-									</ul>
-								</div>
-								-->
-								<div class="col-md-6 col-sm-6" align="center">
-									
-									<table cellpadding="0" cellspacing="0">
-										<tbody><tr>
-											<td>商务合作<br>
-																	+86 0571-26307273<br>
-					+86 0571-26307276<br>
-					+86 0571-56072261<br>
-					+86 0571-87809301<br>
-					
-																	<a href="mailto:iabc@cicaf.com">iabc@cicaf.com</a>
-											</td>
-										</tr>
-					
-									</tbody></table>
-									
-								</div>
-								<div class="col-md-6 col-sm-12" align="right">
-									
-										<div class="col-md-5 col-sm-6 hidden-xs">
-											<p align="center"><img src="http://iabc.cicaf.com/images/qr.jpg" width="100%" style="max-width:100px;"></p>
-											<p align="center">iABC官微</p>
-										</div>
-										<a href="http://www.cicaf.com/" target="_blank">
-										<div class="col-md-7 col-sm-6">
-											<p align="center"><img src="http://iabc.cicaf.com/images/2020/logo2.png" width="100%" style="max-width:100px;"></p>
-											<p align="center">LINK TO CICAF Website</p>
-										</div>
-										</a>
-									
-									
-									
-									
-								</div>
-								</div>
-							</div>
-							<div class="m_30 hidden-xs"></div>
-							
-						</div>
-						<div class="copyright">© All Rights Reserved By CICAF</div>
-					</footer>
+				<div class="mui-slider-indicator" style="display:none;">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
 				</div>
 			</div>
-            </div>
-			<!---1脚本代码-->
-			<script src="../static/js/swiper.min.js"></script>
+            <div class="mui-m-list_show0">
+			<div class="mui-m-list">公司简介</div>
+			<div class="mui-m-list2">公司全称：龙泉市唐人刀剑有限公司、简称 (英文)：longquan tangren sword。产品/服务范围（20~120字）：产品用料讲究、做工精湛、风格独特、品质上乘，或得多项专利和几十个奖项，并被多个博物馆馆藏。于2009年“唐人”刀剑获得丽水市消费者满意品牌。</div>
+			</div>
+			<div class="mui-m-list_show1">
+				<div class="mui-m-list-left">
+					<div class="mui-m-list-left1">公司地址</div>
+					<div class="mui-m-list-left2">浙江省龙泉市剑木路48号</div>
+				</div>
+				<div class="mui-m-list-right">
+					<a href="">立即联系</a>
+				</div>
+			</div>
+			<div class="mui-m-list_show2">
+				<div class="mui-m-list1">联系方式</div>
+				<div class="mui-m-list2">138 8888 8888</div>
+			</div>
+			<div class="mui-m-list_show3">
+				<div class="mui-m-list1">产品/服务范围</div>
+				<div class="mui-m-list2">公司主要经营出口艺术刀剑、传统手工刀剑、古董刀剑和孤品的复制。</div>
+			</div>
+			<div class="mui-m-list_show4">
+				<div class="mui-m-list1">公司官网</div>
+				<div class="mui-m-list2">www.aaa.com</div>
+			</div>
+			<div class="mui-button-row" style="background: rgb(36,110,209);padding: 2px;bottom: 0;">
+				<button type="button" class="mui-btn mui-btn-primary" style="width: 50%;border-radius: 0;border: 0 none;float: left;background: #fff;color: black;margin: 0;">云销售</button>
+				<button type="button" class="mui-btn mui-btn-primary" style="width: 50%;border-radius: 0;border: 0 none;float: left;margin: 0;">云服务</button>
+			</div>
 			<script src="../static/js/mui.min.js"></script>
-			<script type="text/javascript" charset="utf-8">
-				<!--2初始化-->
-				ca.init();
-			</script>
 			<script>
-				var mySwiper = new Swiper('.swiper-container', {
-					loop: true, // 循环模式选项
-					slidesPerView: 3,
-				})
-				var gallery = mui('.mui-slider');
-				gallery.slider({
-					interval: 3000 //自动轮播周期，若为0则不自动播放，默认为0；
+				mui.init({
+					swipeBack:true
+				});
+				var slider = mui("#Gallery");
+				slider.slider({
+					//interval: 5000
 				});
 			</script>
 	</body>
