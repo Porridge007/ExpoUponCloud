@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Hello MUI</title>
+		<title>浙江杭州网上云博会-首页</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -41,34 +41,19 @@
 			</div>
 			<div id="slider" class="mui-slider">
 				<div class="mui-slider-group mui-slider-loop">
-					<div class="mui-slider-item mui-slider-item-duplicate">
+					<div class="mui-slider-item">
 						<a href="#">
-							<img class="my_pic" src="../static/images/gb.png">
+							<img src="../static/images/H3%2059-5X4分三段-01.png">
 						</a>
 					</div>
 					<div class="mui-slider-item">
 						<a href="#">
-							<img src="../static/images/gb.png">
+							<img src="../static/images/H3%2059-5X4分三段-02.png">
 						</a>
 					</div>
 					<div class="mui-slider-item">
 						<a href="#">
-							<img src="../static/images/gb.png">
-						</a>
-					</div>
-					<div class="mui-slider-item">
-						<a href="#">
-							<img src="../static/images/gb.png">
-						</a>
-					</div>
-					<div class="mui-slider-item">
-						<a href="#">
-							<img src="../static/images/gb.png">
-						</a>
-					</div>
-					<div class="mui-slider-item mui-slider-item-duplicate">
-						<a href="#">
-							<img src="../static/images/gb.png">
+							<img src="../static/images/H11-H12%2012X4-02.png">
 						</a>
 					</div>
 				</div>
@@ -90,78 +75,78 @@
 						<ul class="mui-table-view mui-grid-view mui-grid-9">
 							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
 								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">2020年10月10日</p>
-									<p class="gtitle2">浙江市民修仙界</p>
+									<img src="../static/images/1.png">
+									<p class="gtitle1">2020年4月1日</p>
+									<p class="gtitle2">第二十二届西湖博览会</p>
 								</a>
 							</li>
 							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
 								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">2020年10月10日</p>
-									<p class="gtitle2">浙江市民修仙界</p>
+									<img src="../static/images/2.jpg">
+									<p class="gtitle1">2020年4月17日</p>
+									<p class="gtitle2">第四届世界休闲博览会</p>
 								</a>
 							</li>
 							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
 								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">2020年10月10日</p>
-									<p class="gtitle2">浙江市民修仙界</p>
+									<img src="../static/images/3.png">
+									<p class="gtitle1">2020年5月16日</p>
+									<p class="gtitle2">第二十二届美好杭州博览会</p>
 								</a>
 							</li>
 						</ul>
 					</div>
-					<div class="mui-slider-item">
-						<ul class="mui-table-view mui-grid-view mui-grid-9">
-							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">2020年10月10日</p>
-									<p class="gtitle2">浙江市民修仙界</p>
-								</a>
-							</li>
-							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">2020年10月10日</p>
-									<p class="gtitle2">浙江市民修仙界</p>
-								</a>
-							</li>
-							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">2020年10月10日</p>
-									<p class="gtitle2">浙江市民修仙界</p>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="mui-slider-item">
-						<ul class="mui-table-view mui-grid-view mui-grid-9">
-							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">2020年10月10日</p>
-									<p class="gtitle2">浙江市民修仙界</p>
-								</a>
-							</li>
-							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">2020年10月10日</p>
-									<p class="gtitle2">浙江市民修仙界</p>
-								</a>
-							</li>
-							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">2020年10月10日</p>
-									<p class="gtitle2">浙江市民修仙界</p>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
+{{/*					<div class="mui-slider-item">*/}}
+{{/*						<ul class="mui-table-view mui-grid-view mui-grid-9">*/}}
+{{/*							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">*/}}
+{{/*								<a href="https://shop44689179.m.youzan.com/wscgoods/detail/3f5dza7d5kpjn?alias=3f5dza7d5kpjn&banner_id=f.82988357~image_ad.8~0~jPMWtBRK&reft=1585273183839_1590456711080&spm=f.82988357_f.82988357_f.82988357&sf=wx_sm&form=singlemessage">*/}}
+{{/*									<img src="../static/images/FilL5ea1m_tf48WpsFTjH2lQn0cM.jpg!large.jpg">*/}}
+{{/*									<p class="gtitle1">2020年5月10日</p>*/}}
+{{/*									<p class="gtitle2">浙江市民修仙界</p>*/}}
+{{/*								</a>*/}}
+{{/*							</li>*/}}
+{{/*							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">*/}}
+{{/*								<a href="#">*/}}
+{{/*									<img src="../static/images/huoguo.png">*/}}
+{{/*									<p class="gtitle1">2020年10月10日</p>*/}}
+{{/*									<p class="gtitle2">浙江市民修仙界</p>*/}}
+{{/*								</a>*/}}
+{{/*							</li>*/}}
+{{/*							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">*/}}
+{{/*								<a href="#">*/}}
+{{/*									<img src="../static/images/huoguo.png">*/}}
+{{/*									<p class="gtitle1">2020年10月10日</p>*/}}
+{{/*									<p class="gtitle2">浙江市民修仙界</p>*/}}
+{{/*								</a>*/}}
+{{/*							</li>*/}}
+{{/*						</ul>*/}}
+{{/*					</div>*/}}
+{{/*					<div class="mui-slider-item">*/}}
+{{/*						<ul class="mui-table-view mui-grid-view mui-grid-9">*/}}
+{{/*							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">*/}}
+{{/*								<a href="#">*/}}
+{{/*									<img src="../static/images/huoguo.png">*/}}
+{{/*									<p class="gtitle1">2020年5月1日</p>*/}}
+{{/*									<p class="gtitle2">浙江市民修仙界</p>*/}}
+{{/*								</a>*/}}
+{{/*							</li>*/}}
+{{/*							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">*/}}
+{{/*								<a href="#">*/}}
+{{/*									<img src="../static/images/huoguo.png">*/}}
+{{/*									<p class="gtitle1">2020年10月10日</p>*/}}
+{{/*									<p class="gtitle2">浙江市民修仙界</p>*/}}
+{{/*								</a>*/}}
+{{/*							</li>*/}}
+{{/*							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">*/}}
+{{/*								<a href="#">*/}}
+{{/*									<img src="../static/images/huoguo.png">*/}}
+{{/*									<p class="gtitle1">2020年10月10日</p>*/}}
+{{/*									<p class="gtitle2">浙江市民修仙界</p>*/}}
+{{/*								</a>*/}}
+{{/*							</li>*/}}
+{{/*						</ul>*/}}
+{{/*					</div>*/}}
+{{/*				</div>*/}}
 				<div class="mui-slider-indicator" style="display:none;">
 					<div class="mui-indicator mui-active"></div>
 					<div class="mui-indicator"></div>
@@ -178,70 +163,70 @@
 					<div class="mui-slider-item">
 						<ul class="mui-table-view mui-grid-view mui-grid-9">
 							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
+								<a href="http://33s.co/qhem">
+									<img src="../static/images/FilL5ea1m_tf48WpsFTjH2lQn0cM.jpg!large.jpg">
+									<p class="gtitle1">张爷爷纯手工空心挂面 舌尖上的中国报道 </p>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+								<a href="http://33s.co/qhe5">
+									<img src="../static/images/Fpd-uYv5sHz9mCGulUkALPTQE6Ei.jpg!large.jpg">
+									<p class="gtitle1">山东羊角蜜甜瓜 水果甜瓜 </p>
 								</a>
 							</li>
 							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
 								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
-								</a>
-							</li>
-							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
+									<img src="../static/images/FhycNUxh7mN5MG52A1mYcuSDBfio.jpg!large.jpg">
+									<p class="gtitle1"> 玫瑰果胶胶原蛋白美白淡斑Q弹水润澎澎玫</p>
 								</a>
 							</li>
 						</ul>
 					</div>
-					<div class="mui-slider-item">
-						<ul class="mui-table-view mui-grid-view mui-grid-9">
-							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
-								</a>
-							</li>
-							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
-								</a>
-							</li>
-							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="mui-slider-item">
-						<ul class="mui-table-view mui-grid-view mui-grid-9">
-							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
-								</a>
-							</li>
-							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
-								</a>
-							</li>
-							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-								<a href="#">
-									<img src="../static/images/huoguo.png">
-									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
+{{/*					<div class="mui-slider-item">*/}}
+{{/*						<ul class="mui-table-view mui-grid-view mui-grid-9">*/}}
+{{/*							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">*/}}
+{{/*								<a href="http://33s.co/qhgf">*/}}
+{{/*									<img src="../static/images/huoguo.png">*/}}
+{{/*									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>*/}}
+{{/*								</a>*/}}
+{{/*							</li>*/}}
+{{/*							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">*/}}
+{{/*								<a href="#">*/}}
+{{/*									<img src="../static/images/huoguo.png">*/}}
+{{/*									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>*/}}
+{{/*								</a>*/}}
+{{/*							</li>*/}}
+{{/*							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">*/}}
+{{/*								<a href="#">*/}}
+{{/*									<img src="../static/images/huoguo.png">*/}}
+{{/*									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>*/}}
+{{/*								</a>*/}}
+{{/*							</li>*/}}
+{{/*						</ul>*/}}
+{{/*					</div>*/}}
+{{/*					<div class="mui-slider-item">*/}}
+{{/*						<ul class="mui-table-view mui-grid-view mui-grid-9">*/}}
+{{/*							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">*/}}
+{{/*								<a href="#">*/}}
+{{/*									<img src="../static/images/huoguo.png">*/}}
+{{/*									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>*/}}
+{{/*								</a>*/}}
+{{/*							</li>*/}}
+{{/*							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">*/}}
+{{/*								<a href="#">*/}}
+{{/*									<img src="../static/images/huoguo.png">*/}}
+{{/*									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>*/}}
+{{/*								</a>*/}}
+{{/*							</li>*/}}
+{{/*							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">*/}}
+{{/*								<a href="#">*/}}
+{{/*									<img src="../static/images/huoguo.png">*/}}
+{{/*									<p class="gtitle1">浙江市民修仙界浙江市民修仙界</p>*/}}
+{{/*								</a>*/}}
+{{/*							</li>*/}}
+{{/*						</ul>*/}}
+{{/*					</div>*/}}
+{{/*				</div>*/}}
 				<div class="mui-slider-indicator" style="display:none;">
 					<div class="mui-indicator mui-active"></div>
 					<div class="mui-indicator"></div>
