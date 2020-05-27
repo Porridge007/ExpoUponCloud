@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>西博云展</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!--标准mui.css-->
+    <link rel="stylesheet" href="../static/css/mui.min.css">
+    <link rel="stylesheet" href="../static/css/app.css">
+    <script src="../static/js/mui.min.js"></script>
+</head>
+<style>
+    html,
+    body,
+    .mui-content {
+        padding: 0;
+        margin: 0;
+    }
+    .mapBack{
+        position: relative;
+    }
+    .navagitor{
+        padding: 0px 5px;
+        position: absolute;
+        left: 0;
+        top: 20px;
+        background: rgb(29, 119, 153);
+    }
+    .navagitor a{
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+        border-bottom: 2px solid #fff;
+        text-align: center;
+        padding: 12px 5px 10px 5px;
+    }
+     .navagitor a:hover{
+        color: yellow;
+    }
+    .navagitor a:active{
+        color: orange;
+    }
+    .navagitor a:focus{
+        color: orange;
+    }
+   
+    .navagitor a:last-child{
+        border: 0 none;
+    }
+</style>
+
+<body>
+    <div class="mui-content">
+        <div class="mui-m-top" style="line-height: 50px;position: relative;text-align: center;">
+            <a href="#" style="position: absolute;top: 5px;left: 10px;">
+                <svg class="bi bi-chevron-left" width="20px" height="20px" fill="#fff"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                </svg>
+            </a>
+            <span style="font-size: 16px;color: #fff;">展览</span>
+        </div>
+        <div class="mapBack">
+            <img src="../static/images/longmap.jpg" style="width: 100%;margin-bottom: -5px;">
+            <div class="navagitor">
+                <a href="#">
+                    工匠馆
+                </a>
+                <a href="#">
+                    食匠馆
+                </a>
+                <a href="#">
+                    生活匠馆
+                </a>
+                <a href="#">
+                    品牌馆
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
