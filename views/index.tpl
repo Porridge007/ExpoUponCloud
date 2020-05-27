@@ -347,7 +347,7 @@
 
 					<div class="mui-tab-label" style="font-size: 12px;">首页</div>
 				</a>
-				<a class="mui-tab-item" href="" onclick="javascript:window.location.href='/artisanhouse'">
+				<a class="mui-tab-item" href="" onclick="javascript:window.location.href='/map'">
 					<svg class="bi bi-map" width="36px" height="36px" fill="currentColor"
 						xmlns="http://www.w3.org/2000/svg">
 						<path
