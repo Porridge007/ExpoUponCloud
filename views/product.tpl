@@ -40,7 +40,7 @@
 			</a>
 		</div>
 		<div class="mui-m-head"
-			style="background: url(../static/images/唐人刀剑.jpg);background-size: 100% 100%;margin: 0;">
+			style="background: url(../static/images/arrow1.jpg);background-size: 100% 100%;margin: 0;height: 100vw">
 			<div class="mui-m-h1">
 				<div class="mui-m-h1-t1">唐人刀剑</div>
 				<!-- <div class="mui-m-h1-t2">浏览数 105</div> -->
@@ -143,13 +143,13 @@
 				<div class="mui-m-list2">138 8888 8888</div>
 			</div> -->
 		<div class="mui-m-list_show3">
-			<div class="mui-m-list1" style="font: size 17px;">产品/服务范围</div>
+			<div class="mui-m-list1" style="font-size:17px;">产品/服务范围</div>
 			<div class="mui-m-list2" style="text-indent: 2rem;padding-top: 5px;font-size: 14px;">
 				主要经营出口艺术刀剑、传统手工刀剑、古董刀剑和孤品的复制。产品用料讲究、做工精湛、风格独特、品质上乘，或得多项专利和几十个奖项，并被多个博物馆馆藏。于2009年“唐人”刀剑获得丽水市消费者满意品牌。
 			</div>
 		</div>
 		<div class="mui-m-list_show4">
-			<div class="mui-m-list1" style="font: size 17px;">公司官网</div>
+			<div class="mui-m-list1" style="font-size:17px;">公司官网</div>
 			<div class="mui-m-list2" style="text-indent: 2rem;font-size: 14px;">www.aaa.com</div>
 		</div>
 		<div class="mui-button-row" style="background: rgb(36,110,209);padding: 2px;bottom: 0;">
