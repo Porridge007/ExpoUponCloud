@@ -40,13 +40,34 @@
 			</a>
 		</div>
 		<div class="mui-m-head"
-			style="background: url(../static/images/arrow1.jpg);background-size: 100% 100%;margin: 0;height: 100vw">
+			style="background: url(../static/images/arrow1.jpg);background-size: 100% 100%;margin: 0;height: 100vw;">
 			<div class="mui-m-h1">
 				<div class="mui-m-h1-t1">唐人刀剑</div>
 				<!-- <div class="mui-m-h1-t2">浏览数 105</div> -->
 				<div class="previewNumber">
-					<img src="../static/images/xing.png" alt="" class="previewStar">
-					<span>浏览数 105</span></div>
+					<div style="display: inline;background: rgba(50, 50, 50, 0.5);padding: 7px 5px 0px 5px;border-radius: 10px;">
+						<svg height="20" width="18">
+							<polygon points="10,1 4,19 19,7 1,7 16,19"
+							style="fill:red;fill-rule:nonzero;" />
+						  </svg>
+						  <svg height="20" width="18">
+							<polygon points="10,1 4,19 19,7 1,7 16,19"
+							style="fill:red;fill-rule:nonzero;" />
+						  </svg>
+						  <svg height="20" width="18">
+							<polygon points="10,1 4,19 19,7 1,7 16,19"
+							style="fill:red;fill-rule:nonzero;" />
+						  </svg>
+						  <svg height="20" width="18">
+							<polygon points="10,1 4,19 19,7 1,7 16,19"
+							style="fill:red;fill-rule:nonzero;" />
+						  </svg>
+						  <svg height="20" width="18">
+							<polygon points="10,1 4,19 19,7 1,7 16,19"
+							style="fill:white;fill-rule:nonzero;" />
+						  </svg>
+					</div>
+					<span style="position: relative;bottom: 3px;margin-left: 10px;">浏览数 105</span></div>
 			</div>
 			<div class="mui-m-h2">
 				<a href=""><img src="../static/images/fenxiang.png"></a>
@@ -64,11 +85,6 @@
 					<ul class="mui-table-view mui-grid-view mui-grid-9">
 						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
 							<a href="#">
-								<img src="../static/images/arrow1.jpg">
-							</a>
-						</li>
-						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-							<a href="#">
 								<img src="../static/images/arrow2.png">
 							</a>
 						</li>
@@ -77,9 +93,14 @@
 								<img src="../static/images/arrow3.png">
 							</a>
 						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+							<a href="#">
+								<img src="../static/images/arrow4.png">
+							</a>
+						</li>
 					</ul>
 				</div>
-				<div class="mui-slider-item">
+				<!-- <div class="mui-slider-item">
 					<ul class="mui-table-view mui-grid-view mui-grid-9">
 						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
 							<a href="#">
@@ -87,17 +108,17 @@
 							</a>
 						</li>
 						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-							<!-- <a href="#">
+							<a href="#">
 									<img src="../static/images/huoguo.png">
-								</a> -->
+								</a>
 						</li>
 						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-							<!-- <a href="#">
+							<a href="#">
 									<img src="../static/images/huoguo.png">
-								</a> -->
+								</a>
 						</li>
 					</ul>
-				</div>
+				</div> -->
 				<!-- <div class="mui-slider-item">
 						<ul class="mui-table-view mui-grid-view mui-grid-9">
 							<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
