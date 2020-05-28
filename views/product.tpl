@@ -31,7 +31,7 @@
 <body>
 	<div class="mui-content">
 		<div class="mui-m-top" style="line-height: 50px;position: relative;">
-			<a href="#" style="position: absolute;top:5px;left: 10px;">
+			<a href="javascript:history.go(-1);" style="position: absolute;top:5px;left: 10px;">
 				<svg class="bi bi-chevron-left" width="20px" height="20px" fill="#fff"
 					xmlns="http://www.w3.org/2000/svg">
 					<path fill-rule="evenodd"
